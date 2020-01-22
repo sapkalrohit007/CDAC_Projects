@@ -1,0 +1,238 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background-color: red;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*  --------- header --------- */
+.header {
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-overlay {
+    background-color: rgba(31, 31, 31, 0.75);
+    padding: 50px;    
+}
+
+.header .information img {
+    width: 100%;
+}
+
+.header .information .title {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.header .information .sub-title {
+    color: white;
+    font-size: 16px;
+}
+
+.header .download,
+.header .download:focus {
+    background-color: transparent;
+    border: solid 2px #2e89fb;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    color: #2e89fb;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 1s;
+    line-height: 2em;
+}
+
+.header .download:hover {
+    color: white;
+    background-color: #2e89fb;
+}
+
+.header .take_a_tour,
+.header .take_a_tour:focus {
+    border: none;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+.header .buttons {
+    margin-top: 60px;
+}
+
+.header .heart {
+    color: red;
+}
+
+/*  --------- header --------- */
+
+
+
+
+/*  --------- About us --------- */
+
+.about_us {
+    padding-top: 50px;
+}
+
+.about_us h1 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.about_us h1:after {
+    content: "";
+    width: 230px;
+    height: 2px;
+    background-color: #2e89fb;
+    position: absolute;
+    left: 40%;
+    bottom: -10px;
+}
+
+.about_us .about_us_description {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.about_us .about_us_icons {
+    color: #2e89fb;
+    font-size: 30px;
+    line-height: 2.5em;
+}
+
+/*  --------- About us --------- */
+
+
+/*  --------- Slider --------- */
+
+.slider {
+    height: 500px;
+    background-image: url('../images/testimonial-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.slider .slider-overlay {
+    background-color: rgba(31, 31, 31, 0.75);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  --------- Slider --------- */
+
+/*  --------- Contact us --------- */
+
+.contact_us {
+    padding: 50px;
+}
+
+.contact_us h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact_us h2:after {
+    content: "";
+    bottom: -10px;
+    position: absolute;
+    left: 42%;
+    width: 190px;
+    height: 2px;
+    background-color: #2e89fb;
+}
+
+.contact_us p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact_us input {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #333;
+}
+
+::-webkit-input-placeholder {
+    color: lightgray;
+}
+
+::-moz-placeholder {
+    color: lightgray;
+}
+
+::-o-placeholder {
+    color: lightgray;
+}
+
+::-ms-placeholder {
+    color: lightgray;
+}
+
+.contact_us .button_send {
+    width: 100%;
+    color: #2e89fb;
+    border: solid #2e89fb 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    height: 40px;
+    margin: 10px;
+}
+
+.contact_us textarea {
+    height: 95px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid lightgray 1px;
+    width: 100%;
+    resize: none;
+}
+
+.contact_us .social_buttton {
+    border: solid lightgray 1px;
+    margin: 5px;
+    font-size: 25px;
+    color: gray;
+    width: 50px;
+    height: 50px;
+}
+
+.contact_us .social_buttons_container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*  --------- Contact us --------- */
+
